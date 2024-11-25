@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       runner:
-        description: 'GHA Runner Scale Set label to run workflow on.'
+        description: 'GHA Runner Scale Set label to run workflow on!'
         required: true
         default: "llama-stack-gha-runner-gpu"
 
